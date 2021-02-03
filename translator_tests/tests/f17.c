@@ -8,14 +8,13 @@ int main()
     
     while(xx<6){
         y=0;
-        while(y!=xx){
+        while(y<xx){
             acc = acc + y;
             y=y+1;
         }
         xx=xx+2;
     }
-    
-    
+
     return acc-xx-y;
 }
 
